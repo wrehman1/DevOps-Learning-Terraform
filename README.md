@@ -28,7 +28,37 @@ It is a plugin that allows you to interact with other cloud platforms, services 
 
 ## Terraform Commands
 
-`Terraform init`
+`Terraform init` - used to initialise backend, provider plugins
+
+`Terraform plan` - lets you see what the future plan looks like. Allows you to visualise how the changes will be affected to the state file. 
+
+`Terraform apply` - executes the terraform plan command. It is where the desired infrastructure becomes reality.
+
+`Terraform destroy` - safely and effeciently tears down the infrastructure. It is a convinient way to destroy all remote objects managed by a particular Terraform configuration. 
+
+## Terraform Plan
+
+**Resource actions are indicated with the following symbols:** 
+
++ create : Resources that will be created.
+
+— update in-place : Resources that will be modified.
+
+- destroy : Resources that will be deleted.
+
+**Terraform will perform the following actions:**
+
+• An EC" instance (aws_instance.example) will be created. 
+
+• A security group (aws_security_group.example) will have some properties updated. 
+
+• An S3 bucket (aws_s3_bucket.example) will be destroyed.
+
+## Terraform Resource Block
+
+A peice of infrastructure that you want to manage. It is where you decide what you want to create, update or delete about that resource. 
+
+
 
 
 
