@@ -64,3 +64,12 @@ A peice of infrastructure that you want to manage. It is where you decide what y
 
 
 
+## Terraform import
+
+<img width="708" height="144" alt="image" src="https://github.com/user-attachments/assets/0a2ee371-1b98-466d-ab9b-2057e1f1b83f" />
+
+
+
+
+
+
