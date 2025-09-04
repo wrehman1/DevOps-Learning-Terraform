@@ -58,8 +58,12 @@ It is a plugin that allows you to interact with other cloud platforms, services 
 
 A peice of infrastructure that you want to manage. It is where you decide what you want to create, update or delete about that resource. 
 
-
-
+error 403 - credentials 
+its saying run this unset AWS_PROFILE
+unset AWS_ACCESS_KEY_ID
+unset AWS_SECRET_ACCESS_KEY
+unset AWS_SESSION_TOKEN
+then re-export the correct credentials and run terraform init again.
 
 
 
