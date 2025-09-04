@@ -78,5 +78,8 @@ then re-export the correct credentials and run terraform init again.
 <img width="437" height="268" alt="image" src="https://github.com/user-attachments/assets/359f94ab-80e3-4c72-9d3a-e799021c1bc0" />
 
 
+## Types of Variables
+
+<img width="795" height="461" alt="image" src="https://github.com/user-attachments/assets/0e79fa3d-4953-400a-9f24-278daeb80866" />
 
 
