@@ -72,6 +72,14 @@ error 403 - credentials, its saying run this:
 
 then re-export the correct credentials and run terraform init again.
 
+EXPORT COMMANDS: 
+
+`export AWS_ACCESS_KEY_ID="your_access_key_id"`
+
+`export AWS_SECRET_ACCESS_KEY="your_secret_access_key"`
+
+`export AWS_DEFAULT_REGION="your_default_region"`
+
 
 
 
